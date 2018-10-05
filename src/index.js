@@ -45,5 +45,8 @@ export {
     ButtonText,
     Line,
     Spacer,
-    DeviceUtil
+    DeviceUtil,
+    StringUtil,
+    TimeUtil,
+    Validater
 }

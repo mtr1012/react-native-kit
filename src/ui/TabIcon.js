@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
-import { AppColors, AppStyles, AppSizes } from '@theme';
+import AppStyles from '../theme/styles'
+import AppColors from '../theme/colors'
+import AppSizes from '../theme/sizes'
+import AppFonts from '../theme/fonts'
 import PropTypes from 'prop-types'
 import { Badge } from 'react-native-elements';
 

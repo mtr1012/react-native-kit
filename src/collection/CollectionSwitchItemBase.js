@@ -2,7 +2,10 @@ import React, { Component, PureComponent, PropTypes, } from 'react'
 import { Platform, View, StyleSheet, Switch } from 'react-native';
 import { Text, } from "native-base";
 
-import { AppStyles, AppColors, AppSizes } from '@theme';
+import AppStyles from '../theme/styles'
+import AppColors from '../theme/colors'
+import AppSizes from '../theme/sizes'
+import AppFonts from '../theme/fonts'
 
 class CollectionSwitchItemBase extends PureComponent {
     constructor(props) {

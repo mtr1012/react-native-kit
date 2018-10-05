@@ -1,14 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 import { Actions } from 'react-native-router-flux';
 import { Image, View, StyleSheet, TouchableOpacity, Platform, Text } from 'react-native';
-import { AppStyles, AppFonts, AppColors } from '@theme'
+import AppStyles from '../theme/styles'
+import AppColors from '../theme/colors'
+import AppSizes from '../theme/sizes'
+import AppFonts from '../theme/fonts'
 
 import ButtonIcon from './ButtonIcon';
 import ButtonText from './ButtonText';
-import { DeviceUtil } from '@util';
-
-import { API } from '@network';
-
+import DeviceUtil  from '../util/DeviceUtil';
 
 const wrapNavBarDimen = Platform.OS === 'ios' ? 44 : 55;
 const REFRESH_EVENT = 'refesh_notification'

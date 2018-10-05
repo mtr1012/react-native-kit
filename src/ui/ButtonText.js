@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { StyleSheet, View, TouchableOpacity, Keyboard } from 'react-native';
 import { Button, Text } from 'native-base';
-import { AppStyles, AppColors, AppSizes } from '@theme';
+import AppStyles from '../theme/styles'
+import AppColors from '../theme/colors'
+import AppSizes from '../theme/sizes'
+import AppFonts from '../theme/fonts'
 import PropTypes from 'prop-types';
 import _ from 'lodash'
 

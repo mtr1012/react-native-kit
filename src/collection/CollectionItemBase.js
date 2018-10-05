@@ -2,9 +2,12 @@ import React, { Component, PureComponent, PropTypes, } from 'react'
 import { Platform, View, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { Text, } from "native-base";
 
-import { AppStyles, AppColors, AppSizes, AppFonts } from '@theme';
+import AppStyles from '../theme/styles'
+import AppColors from '../theme/colors'
+import AppSizes from '../theme/sizes'
+import AppFonts from '../theme/fonts'
 
-import ButtonIcon from '@component/ButtonIcon';
+import ButtonIcon from '../ui/ButtonIcon';
 
 class CollectionItemBase extends PureComponent {
     constructor(props) {

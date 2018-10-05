@@ -8,7 +8,7 @@ import Filter from './filter/Filter';
 
 var reactMixin = require('react-mixin');
 var TimerMixin = require('react-timer-mixin');
-import { UnmountMixin } from '@util';
+import UnmountMixin from './util/UnmountMixin';
 import _ from 'lodash'
 
 interface PagingInterface<Response, Item, PagingData, Section> {

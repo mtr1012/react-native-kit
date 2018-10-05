@@ -1,7 +1,7 @@
 {
   "name": "react-native-kit",
   "version": "1.6.0",
-  "description": "",
+  "description": "React Native Fruitful Base",
   "main": "src/index.js",
   "scripts": {
     "scripts": "clean-publish"

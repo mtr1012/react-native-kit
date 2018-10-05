@@ -42,7 +42,7 @@ class CollectionItemBase extends PureComponent {
         textColor: AppColors.textPrimary,
         textSelectedColor: AppColors.white,
         rightIcon: null,
-        selectedIcon: require('@images/ic_check_box_checked.png'),
+        selectedIcon: require('./images/ic_check_box_checked.png'),
         textFont: AppFonts.base.family,
     }
 

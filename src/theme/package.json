@@ -1,0 +1,7 @@
+{
+  "name": "@theme",
+  "version": "1.0",
+  "directories": {
+    "source": "./index.js"
+  }
+}

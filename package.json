@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/mtr1012/react-native-kit#readme",
   "dependencies": {
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
     "react-mixin": "^4.0.0",
     "react-native-elements": "^0.19.1",
     "react-native-router-flux": "^4.0.5",

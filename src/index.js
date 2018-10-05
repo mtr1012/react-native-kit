@@ -14,7 +14,7 @@ import Filter from './collection/filter/Filter';
 import ItemFilter from './collection/filter/ItemFilter';
 import CollectionItemBase from './collection/CollectionItemBase';
 import CollectionSwitchItemBase from './collection/CollectionSwitchItemBase';
-import ExpandableList from './ExpandableList';
+
 import Line from './ui/Line';
 import Spacer from './ui/Spacer';
 
@@ -35,7 +35,6 @@ export {
     NavBar,
     ButtonIcon,
     ButtonText,
-    ExpandableList,
     Line,
     Spacer
 }

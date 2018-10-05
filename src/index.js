@@ -1,7 +1,12 @@
+//UI
 import TabIcon from './ui/TabIcon';
 import NavBar from './ui/NavBar';
 import ButtonIcon from './ui/ButtonIcon';
 import ButtonText from './ui/ButtonText';
+import Line from './ui/Line';
+import Spacer from './ui/Spacer';
+
+// Collection
 import ListComponent from './collection/ListComponent';
 import PagingListComponent from './collection/PagingListComponent';
 import ExpandableListComponent from './collection/ExpandableListComponent';
@@ -15,9 +20,8 @@ import ItemFilter from './collection/filter/ItemFilter';
 import CollectionItemBase from './collection/CollectionItemBase';
 import CollectionSwitchItemBase from './collection/CollectionSwitchItemBase';
 
-import Line from './ui/Line';
-import Spacer from './ui/Spacer';
-
+// Util
+import DeviceUtil from './util/DeviceUtil';
 export {
     ExpandableListComponent,
     ListComponent,
@@ -36,5 +40,6 @@ export {
     ButtonIcon,
     ButtonText,
     Line,
-    Spacer
+    Spacer,
+    DeviceUtil
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { StyleSheet, View, TouchableOpacity, Keyboard } from 'react-native';
-import { Button, Text } from 'native-base';
+import { StyleSheet, View, TouchableOpacity, Keyboard, Text } from 'react-native';
+
 import AppStyles from '../theme/styles'
 import AppColors from '../theme/colors'
 import AppSizes from '../theme/sizes'

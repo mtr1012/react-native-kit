@@ -18,13 +18,9 @@
   "homepage": "https://github.com/mtr1012/react-native-kit#readme",
   "dependencies": {
     "lodash": "^4.17.10",
-    "moment": "^2.22.2",
-    "native-base": "^2.6.0",
     "react-mixin": "^4.0.0",
     "react-native-elements": "^0.19.1",
     "react-native-router-flux": "^4.0.5",
-    "react-native-spinkit": "^1.1.1",
-    "react-native-vector-icons": "^5.0.0",
     "react-timer-mixin": "^0.13.4"
   },
   "devDependencies": {

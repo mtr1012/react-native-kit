@@ -1,6 +1,5 @@
 import React, { Component, PureComponent, PropTypes, } from 'react'
-import { Platform, View, StyleSheet, Switch } from 'react-native';
-import { Text, } from "native-base";
+import { Platform, View, StyleSheet, Switch, Text } from 'react-native';
 
 import AppStyles from '../theme/styles'
 import AppColors from '../theme/colors'
